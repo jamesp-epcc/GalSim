@@ -249,7 +249,7 @@ class SiliconSensor(Sensor):
                                             diff_step, PixelSize, SensorThickness,
                                             vertex_data.ctypes.data,
                                             self.treering_func._tab, self.treering_center._p,
-                                            self.abs_length_table._tab, self.transpose)
+                                            self.abs_length_table._tab, self.transpose, False)
 
     def updateRNG(self, rng):
         self.rng.reset(rng)

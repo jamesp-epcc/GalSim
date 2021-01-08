@@ -1091,13 +1091,13 @@ def test_omp():
 
 
 if __name__ == "__main__":
-    test_simple()
+    #test_simple()
     test_silicon()
-    test_silicon_fft()
-    test_silicon_area()
-    test_sensor_wavelengths_and_angles()
-    test_bf_slopes()
-    test_treerings()
-    test_resume()
-    test_flat()
-    test_omp()
+    #test_silicon_fft()
+    #test_silicon_area()
+    #test_sensor_wavelengths_and_angles()
+    #test_bf_slopes()
+    #test_treerings()
+    #test_resume()
+    #test_flat()
+    #test_omp()
